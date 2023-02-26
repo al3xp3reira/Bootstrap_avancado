@@ -1,0 +1,294 @@
+
+        html{
+            
+            overflow-x: hidden;
+           
+           
+        }
+        .navbar-nav .nav-link.active{
+            display: block;
+            background-color: #6c757d;
+        }
+
+        
+        
+        
+        a.nav-link {
+            color: #fff;
+        }
+
+div.col-4{
+    margin-top: 20px;
+}
+
+.carousel{
+    margin-top: 10px;
+}
+
+        .nav-link{
+            text-align: center;
+        }
+        section {
+            margin-top: 70px;
+            background-color: #ffffff;
+            padding-top: 70px;
+        }
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #363636;
+            z-index: 2;
+            
+        }
+
+        h1{
+            color: #fff;
+        }
+        div.container{
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        section#EmCartaz{
+            margin-right: 0;
+        }
+    
+        .card-img-overlay{
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .btn-dark{
+        margin-top: 20px;
+        }
+        div#gato.col-sm-12.col-lg-4 {
+            margin-top: 1px;
+        }
+
+        button#flms.btn.btn-dark.float-end {
+            text-align: inherit;
+        }
+
+
+
+        @media screen  and (max-width: 767px) {
+            html, header{
+                width: 100vw;
+               }
+            
+            .conteudo{
+                display: flex;
+               
+            }   
+            .container {
+               max-width: 100%;
+               padding: 0px px; 
+            }
+
+            .carousel{
+                width: 100%;
+                padding-top: 20px;
+            }
+
+            section#EmCartaz{
+                padding-top: 0;
+                height: 30vh;
+            }
+
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            
+.card{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    padding: 1rem;
+    
+    
+}
+
+           
+            div#avatar.col-sm-12.col-lg-4 {
+                margin-top: 45px;
+                height: auto;
+            }
+            div#formiga.col-sm-12.col-lg-4 {
+                margin-top: 45px;
+            }
+            div#Last.col-sm-12.col-lg-4 {
+                margin-top: 50px;
+            }
+           
+            div#King.col-sm-12.col-lg-4 {
+                margin-top: 50px;
+            }
+            div#Andor.col-sm-12.col-lg-4 {
+                margin-top: 50px;
+            }
+          
+            button#flms.btn.btn-dark.float-end{
+                margin-right: 10px;
+            }
+
+            .botao-menu{
+                display: flex;
+                justify-content: center;
+                margin-top: 16px;
+                padding-bottom: 16px;
+            }
+            .botao-menu button{
+                padding: 8px;
+            }
+            div.card.text-bg-dark{
+                display: flex;
+                text-align: center;
+            }
+            section#FilmesEmAlta  img{
+                display: flex;
+                margin-top: 5px;
+                margin: 5px auto;
+                width: 100%;
+                text-align: center;
+
+            }
+            section#SeriesEmAlta .container .row  {
+                height: 3px;
+                display: flex;
+                margin-top: 5px;
+               
+                margin: 2px auto;
+                width: 100%;
+                text-align: center;
+
+            }
+            section#SeriesEmAlta img{
+                display: flex ;
+                
+                margin: 5px ;
+                width: 100%;
+            }
+            .card-body {
+                width: 100%;
+            }
+            button#Veja.btn.btn-dark.float-end{
+                margin-top: 1930px;
+                margin-right: 22px;
+            }
+        }
+        @media screen and (min-width: 768px) and (max-width: 1023px){
+            
+    .carousel{
+        padding-top: 50px;
+    }
+            li p {
+                display: flex;
+                height: 38px;
+            }
+        
+        .card {
+            display: grid;
+            grid-template-columns: repeat(1, 100%);
+            padding: 1rem;
+            margin-top: 50px;
+            
+        }
+        #SeriesEmAlta h2 {
+            margin-top: 100px;
+        }
+                   
+                    a#botao-avatar.btn.btn-secondary{
+                        margin-top: 27.42px;
+                    }
+
+                    div#formiga.col-sm-12.col-lg-4 {
+                        
+                    }
+                    div#Last.col-sm-12.col-lg-4 {
+                        margin-top: 50px;
+                    }
+                   
+                    div#King.col-sm-12.col-lg-4 {
+                        margin-top: 50px;
+                    }
+                    div#Andor.col-sm-12.col-lg-4 {
+                        
+                    }
+                    button#Veja.btn.btn-dark.float-end{
+                        margin-top: 1450px;
+                        margin-right: 22px;
+                    }
+                    button#flms.btn.btn-dark.float-end{
+                        float: left;
+                    }
+                
+                    .botao-menu{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 16px;
+                        padding-bottom: 16px;
+                    }
+                    .botao-menu button{
+                        padding: 8px;
+                    }
+                    div.card.text-bg-dark{
+                        display: flex;
+                        text-align: center;
+                        
+                    }
+                    section#FilmesEmAlta  img{
+                        display: flex;
+                        margin-top: 5px;
+                        margin: 5px auto;
+                        width: 100%;
+                        text-align: center;
+        
+                    }
+                    section#SeriesEmAlta .container .row  {
+                        height: 3px;
+                        display: flex;
+                        margin-top: 5px;
+                        margin: 2px auto;
+                        text-align: center;        
+                    }
+                    section#SeriesEmAlta img{
+                        display: flex ;                       
+                        margin: 5px ;                   
+                    }
+                    .card-body {
+                        width: 100%;
+                    }
+                }
+
+             
+                
+        @media screen and (min-width: 1024px){
+            .botao-menu{
+                display: none;
+        }
+        div#gato.col-sm-12.col-lg-4 {
+            margin-top: 2px;
+        }
+        div#avatar.col-sm-12.col-lg-4 {
+            margin-top: 4px;
+        }
+        div#formiga.col-sm-12.col-lg-4 {
+            margin-top: 4px;
+        }
+        #SeriesEmAlta h2 {
+            margin-top: 30px;
+        }
+        
+        button#Veja.btn.btn-dark.float-end{
+            
+            margin-right: 13px;
+        } 
+    }
+    div.card.text-bg-dark {
+        width: 100%;
+        padding: inherit;
+    }
+    button#flms.btn.btn-dark.float-end{
+            margin-right: 22px;
+            text-align: inherit;
+        } 
